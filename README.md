@@ -33,26 +33,51 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/48b91c75-4238-4b05-85d3-0ac69124f902)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ - Set up the VM's for the lab
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/05267ed8-833a-4d98-bace-8326abd07bb0)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ - Install Active Directory Domain Services on dc1
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/2d971e16-ef4d-4984-93cb-564f9f7e1dd1)
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+  - Create an Organizational Unit called “_EMPLOYEES”
+  - Create a new OU named “_ADMINS”
+  - Create a new employee 
 </p>
 <br />
+
+
+![image](https://github.com/user-attachments/assets/5508cef9-6341-46cb-9e3c-e3c0651317f9)
+
+</p>
+<p>
+ - Allow domain users access to remote desktop on client 1
+
+</p>
+<br />
+
+
+![image](https://github.com/user-attachments/assets/223e3383-d8c7-4e84-9a53-b0fd5dd532c8)
+![image](https://github.com/user-attachments/assets/f85d0219-c896-44c4-a85a-59c88062d5a8)
+
+</p>
+
+ - Open powershell as an admin
+  - Create a new file and paste the contents of the script into it
+  - log into a user in client vm
+</p>
+<br />
+
